@@ -1,0 +1,483 @@
+
+body{
+	font-family: sans-serif;
+}
+
+h2{
+	text-align: center;	 
+}
+
+.abt{
+	padding:20px;
+	text-align: justify;
+}
+/*extra large device */
+
+@media only screen and (min-width:1200px){
+	.wrapper{
+		width:1200px;
+		height:auto;
+		background-color:#c3c3c3;
+		margin:0 auto;
+	}
+
+	.header{
+		height:400px;
+		width:100%;
+		background:url(header3.jpg);
+		background-position:center;
+		float:left;		
+	}
+
+	.menu{
+		background-color:rgb(113,111,122);
+		opacity: 60%;
+		height:100px;
+		width: 100%;
+		float:left;
+	}
+
+	.menu h1{
+		padding-left: 20px;
+		padding-top: 20px;
+	}
+
+
+	.menu ul{
+		float:right;
+		padding:30px 20px;
+	}
+
+	.menu ul li{
+		display:inline;
+	}
+
+	.menu ul li a{
+		color:white;
+		font-weight:bold;
+		padding:100px 20px;
+	}
+
+	.menu h1{
+		color:white;
+		float:left;
+	}
+
+	.menu a:hover{
+		color:#eb4e5f;
+	}
+
+	.content{
+		background-color:white;
+		width:100%;
+		height:auto;
+		float:left;
+	}
+
+	.main-content{
+		padding:50px 0px;
+		float:left;
+		width:100%;
+		background-color: #eb4e5f;
+	}
+
+	.main-content p{
+		color:white;
+		text-align: center;
+		padding:0 250px;
+		}
+
+
+	.main-content h2{
+		color:white;
+		text-align: center;
+	}
+
+	.services{
+		padding:50px 0px;
+		float:left;
+		width:100%;
+		background-color: white;
+	}
+	.services h1{
+		text-align: center;
+	}
+
+	.services p{
+		color:black;
+		text-align: center;
+		padding:0 250px;
+		}
+
+
+	.block{
+		background-color: white;
+		width:100%;
+		height:auto;
+		float:left;
+
+	}
+	.col1{
+		float:left;
+		width:340px;
+		height:200px;
+		margin:30px;
+		background-color: white;
+
+
+	}
+
+	.side{
+		width:80px;
+		float:left;
+		height:100%;
+		background-color: #eb4e5f;		
+	}
+
+	.side img{
+		width:80px;
+	}
+	.con{
+		float:left;
+		width:260px;
+	}
+	.des{
+
+		width:255px;
+		float:left;
+		height:150px;
+		margin:45px 0 0 0;
+		background-color: #eaeaea;
+	}\
+
+
+	.des p{
+		padding-left:5px;
+		text-align: left;
+	}
+}
+
+/* extra small devices */
+@media only screen and (max-width:600px){
+
+		.wrapper{
+			width:600px;
+			height:auto;
+			background-color:#c3c3c3;
+			margin:0 auto;
+		}
+
+		.header{
+			height:auto;
+			width:100%;
+			background:url(header3.jpg);
+			float:left;		
+		}
+
+		.menu{
+			background-color:rgb(113,111,122);
+			opacity: 60%;
+			height:auto;
+			width: 100%;
+			float:left;
+		}
+
+		.menu h1{
+			padding-left: 4px;
+			padding-top: 4px;
+		}
+
+
+		.menu ul{
+			float:right;
+			padding:15px 20px;
+			list-style-type: none;
+		}
+	
+		.menu ul li{
+			display:;
+			padding:5px;
+		}
+	
+		.menu ul li a{
+			color:white;
+			font-weight:bold;
+			padding:50px 10px;
+		}	
+
+		.menu h1{
+			color:white;
+			float:left;
+		}
+
+		.menu a:hover{
+			color:#eb4e5f;
+		}
+
+		.content{
+			background-color:white;
+			width:100%;
+			height:auto;
+			float:left;
+		}
+
+		.main-content{
+			padding:50px 0px;
+			float:left;
+			width:100%;
+			background-color: #eb4e5f;
+		}
+
+		.main-content p{
+			color:white;
+			text-align: center;
+			padding:0 250px;/*------------------------------*/
+		}
+
+
+		.main-content h2{
+			color:white;
+			text-align: center;
+		}
+
+		.services{
+			padding:50px 0px;/*-------------------------*/
+			float:left;
+			width:100%;
+			background-color: white;
+		}
+		.services h1{
+			text-align: center;
+		}
+
+		.services p{
+			color:black;
+			text-align: center;
+			padding:0 250px;/*------------------*/
+		}
+
+
+		.block{	
+			background-color: white;
+			width:100%;
+			height:auto;
+			float:left;
+
+		}
+		.col1{
+			float:left;
+			width:28%;
+			height:200px;
+			margin:30px;
+			background-color: white;
+
+
+		}	
+
+		.side{
+			width:7%;
+			float:left;
+			height:100%;
+			background-color: #eb4e5f;		
+		}
+
+		.side img{
+			display: none;
+			width:80px;
+		}
+
+		.con{
+			float:left;
+			width:22%;
+		}
+
+		.des{
+
+			width:150;
+			float:left;
+			height:150px;
+			margin:45px 0 0 0;
+			background-color: #eaeaea;
+		}
+
+
+		.des p{
+			padding-left:5px;/*----------------------*/
+			text-align: left;
+			    font-size: xx-small;
+		}
+	}
+
+
+/* extra small devices */
+@media only screen and (max-width:1200px) {
+
+		.wrapper{
+			width:100%;
+			height:auto;
+			background-color:#c3c3c3;
+			margin:0 auto;
+		}
+
+		.header{
+			height:auto;
+			width:100%;
+			background:url(header3.jpg);
+			float:left;		
+		}
+
+		.menu{
+			background-color:rgb(113,111,122);
+			opacity: 60%;
+			height:auto;
+			width: 100%;
+			float:left;
+		}
+
+		.menu h1{
+			padding-left: 4px;
+			padding-top: 4px;
+		}
+
+
+		.menu ul{
+			float:right;
+			padding:15px 20px;
+			list-style-type: none;
+		}
+	
+		.menu ul li{
+			display:;
+			padding:5px;
+		}
+	
+		.menu ul li a{
+			color:white;
+			font-weight:bold;
+			padding:50px 10px;
+		}	
+
+		.menu h1{
+			color:white;
+			float:left;
+		}
+
+		.menu a:hover{
+			color:#eb4e5f;
+		}
+
+		.content{
+			background-color:white;
+			width:100%;
+			height:auto;
+			float:left;
+		}
+
+		.main-content{
+			padding:50px 0px;
+			float:left;
+			width:100%;
+			background-color: #eb4e5f;
+		}
+
+		.main-content p{
+			color:white;
+			text-align: center;
+			padding:0 250px;/*------------------------------*/
+		}
+
+
+		.main-content h2{
+			color:white;
+			text-align: center;
+		}
+
+		.services{
+			padding:50px 0px;/*-------------------------*/
+			float:left;
+			width:100%;
+			background-color: white;
+		}
+		.services h1{
+			text-align: center;
+		}
+
+		.services p{
+			color:black;
+			text-align: center;
+			padding:0 250px;/*------------------*/
+		}
+
+
+		.block{	
+			background-color: white;
+			width:100%;
+			height:auto;
+			float:left;
+
+		}
+		.col1{
+			float:left;
+			width:40%;
+			height:200px;
+			margin:30px;
+			background-color: white;
+
+
+		}	
+
+		.side{
+			width:20%;
+			float:left;
+			height:100%;
+			background-color: #eb4e5f;		
+		}
+
+		.side img{
+			width:90%;
+		}
+
+		.con{
+			float:left;
+			width:22%;
+		}
+
+		.des{
+
+			width:250;
+			float:left;
+			height:150px;
+			margin:45px 0 0 0;
+			background-color: #eaeaea;
+		}
+
+
+		.des p{
+			padding-left:5px;/*----------------------*/
+			text-align: left;
+			    font-size: small;
+		}
+	}
+
+
+
+
+/*
+.col2{
+	float:left;
+	width:330px;
+	height:200px;
+	margin:30px;
+	background-color: pink;
+	display:inline;
+	
+}
+
+.col3{
+	float:right;
+	width:330px;
+	height:200px;
+	margin:30px;
+	background-color: brown;
+}
+
